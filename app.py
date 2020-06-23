@@ -8,5 +8,6 @@ def default():
     return render_template('index.html')
 
 if __name__ == "__main__":
+    print('Creando el build')
     freezer.freeze()
     # app.run()
